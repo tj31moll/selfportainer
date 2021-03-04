@@ -332,8 +332,8 @@
     "platform": "linux",
     "restart_policy": "unless-stopped",
     "ports": [
-      "80/tcp",
-      "443/tcp"
+      "3000:80/tcp",
+      "3001:443/tcp"
     ],
     "volumes": [
       {
